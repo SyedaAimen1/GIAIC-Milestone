@@ -1,0 +1,59 @@
+.social-icons-cont{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 25px;
+font-size: 22px;
+gap: 40px;
+
+}
+
+.social-icons{
+    color: darkblue;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icons:hover{ 
+    color: bisque;
+    transform: scale(1.1)
+}
+.desc-hero{
+    margin: 4px;
+    text-align:left;
+    font-size: 20px;
+
+}
+.hero-image{
+    width: 300px;
+    height: 300px;
+  
+}
+ .hero-text{
+     font-size:35px;
+    color:#050982 ;
+           }
+
+           @media screen  and (min-width:100px) and (max-width:750px){
+
+
+            .hero-text{
+                font-size:20px;
+               color:#050982 ;
+                      }
+           
+             .hero-image{
+               width: 200px;
+               height: 200px;
+                      
+                    }
+              .desc-hero{
+                 margin: 4px;
+                 text-align:center;
+                 font-size: 15px;
+                    
+                    }
+
+           }
