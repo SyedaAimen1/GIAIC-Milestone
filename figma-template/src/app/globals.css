@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar:hover {
+  color:rgba(36, 133, 163, 0.418);
+  transition: all 0.4s;
+}
